@@ -32,8 +32,8 @@
 
 ######## LETS INSTALL NOW ###############################
 
-CONF_DIR=/etc/nginx/conf.d
-BOTS_DIR=/etc/nginx/bots.d
+CONF_DIR=/www/server/nginx/conf
+BOTS_DIR=/www/server/bots.d
 SCRIPT_DIR=/usr/local/sbin
 REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
