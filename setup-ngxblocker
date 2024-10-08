@@ -6,12 +6,12 @@
 ###  Licensed under the terms of the GPL2              ###
 ##########################################################
 
-WWW=/var/www
-VHOST_EXT="vhost"
-VHOST_DIR=/etc/nginx/sites-available
-BOTS_DIR=/etc/nginx/bots.d
-CONF_DIR=/etc/nginx/conf.d
-MAIN_CONF=/etc/nginx/nginx.conf
+WWW=/www/wwwroot
+VHOST_EXT="conf"
+VHOST_DIR=/www/server/panel/vhost/nginx
+BOTS_DIR=/www/server/nginx/bots.d
+CONF_DIR=/www/server/nginx/conf
+MAIN_CONF=/www/server/nginx/conf/nginx.conf
 INSTALLER=/usr/local/sbin/install-ngxblocker
 # setting Y / yes will whitelist only directories in $www
 # that look like domain.names
